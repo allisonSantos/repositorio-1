@@ -1,0 +1,165 @@
+body{
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: 'Poppins', sans-serif;
+}
+/* Configurações para grid */
+.container{
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+}
+
+/* Inicio header e sidebar */
+#header {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 42px;
+    text-decoration-line: none;
+    color: #070F18;
+}
+#menu{
+    text-align: right;
+}
+#menu li{
+    display: inline-block;
+    margin: 15px 0 0 15px;
+    font-size: 15px ;
+   
+}
+#menu li a{
+    text-decoration: none;
+    color: #070F18;
+}
+/* Término header e sidebar */
+
+/* Início informacional */
+#informacional h1{
+    font-size:55px;
+    margin-top: 50px;
+}
+#informacional p{
+    font-size: 15px;
+    margin-top: -20px;
+}
+#informacional button{
+    padding: 14px 30px 14px 30px;
+    background-color: #1F7CFF;
+    color: white;
+    font-size: 14px;
+    border-radius: 30px;
+    font-weight: 600;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+}
+#imagem-centro{
+    display: flex;
+    justify-content: flex-end;
+}
+#imagem-centro img{
+    border-radius: 50px;
+    width: 491px;
+    height: 361px;
+}
+/* Fim informacional */
+/* Inicio clientes */
+#clientes-grid-1{
+    font-weight: 600;
+}
+#clientes-grid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.grid{
+    margin-top: 40px;
+}
+/* Fim clientes */
+/* Inicio serviços */
+#servicos{
+    text-align: center;
+}
+#servicos .titulo-servicos{
+    color:#F75C4E;
+    font-weight: 600;
+    margin-bottom: -40px;
+}
+#servicos h3{
+    font-size: 38px;
+    font-weight: 700;
+}
+#servicos .corpo-servicos{
+    margin-top: -30px;
+}
+/* Fim serviços */
+
+/* Inicio tipos de serviços */
+
+.tipos{
+    text-align: center;
+    margin-top: 10px;
+}
+.tp-serv{
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: -10px;
+}
+/* Fim tipos de serviços */
+
+/* Sessão formulário */
+.imagem-final img{
+    width: 546px;
+    height: 388px;
+    border-radius: 50px;
+    margin-top: 50px;
+}
+.formulario{
+    margin: 100px auto;
+    
+}
+.formulario h3{
+    font-weight: 700;
+    font-size: 36px;
+    margin: -10px 0 0 0;
+}
+.formulario .titulo-formulario{
+    font-weight: 700;
+    font-size: 16px;
+    color:#F75C4E;
+}
+.formulario form input{
+    background-color: #d6d6d6;
+    padding: 14px 100px 14px 15px;
+    border-radius: 50px;
+    border: none;
+}
+.formulario form button{
+    padding: 14px 55px 14px 55px;
+    background-color: #1F7CFF;
+    color: white;
+    font-size: 14px;
+    border-radius: 30px;
+    font-weight: 600;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+}
+/* Fim sessão formulário */
+/* Texto portifolio */
+.texto .texto-port{
+    font-weight: 700;
+    font-size: 16px;
+    color: #F75C4E;
+    margin-top: 30px;
+}
+.texto h3{
+    font-weight: 700;
+    font-size: 36px;
+    margin-top: -20px;
+}
+.port1{
+    padding-left: 40px;
+}
+/* Fim portifolio */
